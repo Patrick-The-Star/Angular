@@ -23,11 +23,7 @@
 	}
 
 	function itemFinder(){
-		var itemFinder = this;
-		itemFinder.onRemove = function(index){
-			itemFinder.items.splice(index,1);
-			console.log("hello");
-		}
+		
 	}
 
 	MenuService.$inject=['$http'];
