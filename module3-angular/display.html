@@ -4,7 +4,8 @@
 	<div ng-if="item.length===0">Nothing found</div>
 	<span>{{itemFinder.empty}}</span>
 	<li ng-repeat="item in itemFinder.items">
-		Item name: {{item.name}}, Short name: {{item.short_name}}, Description: {{item.description}}
+		<strong>Item name:</strong> {{item.name}}, <strong>Short name: </strong>{{item.short_name}}, <strong>Description: </strong>{{item.description}}
+		<br>
 		<button ng-click="itemFinder.onRemove({index:$index});">Don't want this one!</button>
 	</li>
 </ul>	
