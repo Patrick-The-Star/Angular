@@ -5,6 +5,6 @@
 	<span>{{itemFinder.empty}}</span>
 	<li ng-repeat="item in itemFinder.items">
 		Item name: {{item.name}}, Short name: {{item.short_name}}, Description: {{item.description}}
-		<button ng-click="itemFinder.onRemove({index:$index});">Remove</button>
+		<button ng-click="itemFinder.onRemove({index:$index});">Don't want this one!</button>
 	</li>
 </ul>	
